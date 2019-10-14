@@ -31,4 +31,4 @@ with open('zorotext.txt', 'r') as file:
      
 os.system('echo "{0}" | festival --tts'.format(k)) 
 
-
+print(k)
